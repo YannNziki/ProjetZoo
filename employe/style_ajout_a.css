@@ -1,0 +1,264 @@
+form {
+    width:300px;
+    margin: 20px auto;
+  }
+
+  label input {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border:1px solid #615d5d;
+    font-size:20px;
+    width:300px;
+    min-height:30px;
+    display:block;
+    margin-bottom:15px;
+    margin-top:5px;
+    outline: none;
+
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    border-radius:5px;
+  }
+
+  label input[type=submit] {
+    background:none;
+    padding:10px;
+    cursor: pointer;
+  }
+
+  label input:hover{
+    background: #ffffff;
+    border-color: #ffffff;
+  }
+
+  label{
+    cursor: pointer;
+  } form {
+    width:300px;
+    margin: 20px auto;
+  }
+
+  input {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border:1px solid #a6a6a6;
+    font-size:20px;
+    width:300px;
+    min-height:30px;
+    display:block;
+    margin-bottom:15px;
+    margin-top:5px;
+    outline: none;
+    background-color: #ffffff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    border-radius:5px;
+  }
+
+  input[type=submit] {
+    background:none;
+    padding:10px;
+    cursor: pointer;
+  }
+
+  label{
+    cursor: pointer;
+  }
+
+  body{
+    min-height: 100vh;
+    background-color: #d9d7d7;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    /* ===== Colors ===== */
+    --primary-color: #ffffff;
+    --panel-color: #017512;
+    --text-color: #000;
+    --black-light-color: #707070;
+    --border-color: #017512;
+    --toggle-color: #DDD;
+    --box1-color: #ffffff;
+    --box2-color: #FFE6AC;
+    --box3-color: #E7D1FC;
+    --title-icon-color: #fff;
+    
+    /* ====== Transition ====== */
+    --tran-05: all 0.5s ease;
+    --tran-03: all 0.3s ease;
+    --tran-03: all 0.2s ease;
+}
+
+nav .menu-items{
+    margin-top: 40px;
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-items {
+    list-style: none;
+}
+.menu-items li a{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 14px;
+    background-color: var(--panel-color);
+    border-right: 1px solid var(--border-color);
+    transition: var(--tran-05);
+}
+
+nav.close{
+    width: 73px;
+}
+nav .logo-name{
+    display: flex;
+    align-items: center;
+
+}
+nav .logo-image{
+    display: flex;
+    justify-content: center;
+    min-width: 45px;
+}
+nav .logo-image img{
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+nav .logo-name .logo_name{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fffcfc;
+    margin-left: 6px;
+    transition: var(--tran-05);
+}
+nav.close .logo_name{
+    opacity: 0;
+    pointer-events: none;
+}
+nav .menu-items{
+    margin-top: 40px;
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-items li{
+    list-style: none;
+}
+.menu-items li a{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+    position: relative;
+}
+.nav-links li a span:hover{
+    
+    background: #72e803;
+    border-color: #72e803;
+    border-radius: 6px;
+}
+
+.nav-links li a span{
+    height: 45px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px; 
+    font-size: 1rem;
+    padding: 0 14px;
+    background-color:  #3ba626;
+    border-color:  #3ba626;
+    color: #FFF;
+}
+
+.logout-mode li span{
+    color: #fff;
+
+}
+
+.logout-mode li span:hover{
+    color: #003cff;
+
+}
+
+
+form .style2 {
+    height: 45px;
+    width: 100%;
+    border: 1px solid #575757;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    padding: 0 14px;
+    background-color: #575757;
+    border-color: #575757;
+  }
+  
+
+
+  
+form .style2:focus {
+  
+    border-color: #1877f2;
+    color: #000000;
+  }
+
+    
+form .style1:focus {
+  
+    border-color: #1877f2;
+    color: #000000;
+  }
+
+h3{
+    margin-top: 7%;
+    width: 15%;
+    border: 1px solid #575757;
+    border-radius: 6px;  
+    background-color: #ffffff;
+    border-color: #575757;
+    color: #939393;
+}
+
+.style3:hover {
+  background: #0e5001;
+  border-color: #0b3c01;
+}
+
+.style4:hover {
+  background: #484948;
+  border-color: #484948;
+}
+
+a{
+  margin-top: 30px;
+}
+
+a{
+  margin-top: 30px;
+}

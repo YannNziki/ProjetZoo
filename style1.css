@@ -1,0 +1,181 @@
+
+  
+	
+.bg {
+	
+	background-image: url("Zoo_accueil.jpg");
+  
+	height: 100%; 
+  
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.te {
+  position: absolute;
+    left: 54%;
+    top: 23%;
+    padding: 70px;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    color: #ffdd00;
+
+   
+}
+
+.tr {
+  position: absolute;
+    left: 54%;
+    top: 50%;
+    border-radius: 10px;
+    box-shadow: 100px;
+    padding: 70px;
+    width: 450px;
+    border: solid  green;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translate(-50%, -50%);
+    background: rgba(78, 75, 75, 0.478);
+    color: #ffffff;
+}
+
+
+.style3  {
+  margin-top: 25px;
+  text-align: center;
+
+}
+
+.style4  {
+  margin-top: 5px;
+  text-align: center;
+
+}
+
+.style3 a {
+  padding: 15px 20px;
+  background: #42b72a;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.063rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.style3:hover {
+  background: #3ba626;
+  border-color: #3ba626;
+}
+
+.style4:hover {
+  background: #3ba626;
+  border-color: #42b72a;
+}
+
+
+a {
+  
+  margin-top: 3em;
+  color: rgba(250, 4, 4, 0.918);
+}
+
+ a:hover {
+
+  color: rgb(255, 255, 255);
+}
+
+
+.tr h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.tr h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+
+.tr input {
+  height: 100%;
+  width: 100%;
+  background: #333;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0 20px;
+}
+
+
+form .style1:focus {
+
+  color: #000000;
+  border-color: #1877f2;
+}
+
+form .style2:focus {
+  
+  border-color: #1877f2;
+  color: #000000;
+}
+
+
+form .style1 {
+  height: 25px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  padding: 0 14px;
+  color: #000000;
+  background-color: #e5e5e5;
+}
+
+form .style2 {
+  height: 25px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  padding: 0 14px;
+  color: #000000;
+  background-color: #e5e5e5;
+}
+
+form .style3 {
+  height: 45px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  padding: 0 14px;
+  background-color: #ff8902;
+  border-color: #ff8902;
+}
+
+form .style4 {
+  height: 45px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  padding: 0 14px;
+  background-color: #ff8902;
+  border-color: #ff8902;
+}
